@@ -1,0 +1,63 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    flex-direction: column;
+}
+#main-container{
+    padding:1rem;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-items: center;
+    align-items: center;
+    gap:0.5rem;
+}
+.modalContainer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+.modalMiniCard{
+    background-color: rgb(205, 235, 247);
+    min-width: 130px;
+    min-height: 100px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+
+}
+.modalMiniCard h6{
+    color: seagreen;
+}
+.Allminicard{
+    display: flex;
+    flex-direction: row;
+    gap:5px;
+}
+.lowerPart{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    justify-content: space-around;
+}
+.BottomMargin{
+    margin-bottom: 30px;;
+}
+.topright {
+    position: absolute;
+    top: 32px;
+    right: 11px;
+    font-size: 18px;
+    background-color: rgb(182, 0, 0);
+    color: white;
+    padding: 5px;
+    border-radius: 8px;
+  }
+  .Modal_Image{
+    position: relative;
+  }
